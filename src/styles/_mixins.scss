@@ -1,0 +1,28 @@
+@mixin fc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes shake {
+    0% 
+    {
+        transform: translateX(0px);
+    }
+    25%
+    {
+        transform: translateX(30px);
+    }
+    50%
+    {
+        transform: translateX(-30px);
+    }
+    75%
+    {
+        transform: translateX(30px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+}
